@@ -1,1 +1,3 @@
+supervision
+cv2
 
