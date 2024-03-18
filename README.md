@@ -16,12 +16,13 @@ pt파일을 직접 만들었고 실시간 추적 코드를 짰습니다.
 ![ 실행영상 ](assets/2.gif)
 
 ## 실행 방법
-1. 아나콘다 가상환경 생성(파이썬 버전 >=3.8)
-2. 주피터노트북 설치합시다 pip install jupyter notebook
-3. git clone repo
-4. cd yolov9
-5. pip install -r requirements.txt
-6. jupyter notebook
-7. cpu, gpu를 미리 333.py에서 설정해주기
-8. 터미널에서 python 333.py
-9. 짜잔
+1. 아나콘다 가상환경 생성(파이썬 버전 >=3.8) " conda create -n {가상환경이름} python=3.8 "
+2. 아나콘다 가상환경 실행 " conda activate {가상환경이름} "
+3. 주피터노트북 설치합시다 " pip install jupyter notebook "
+4. 레파지토리 다운 받을 경로로 가서 다운하" git clone repo "
+5. cd yolov9
+6. pip install -r requirements.txt
+7. jupyter notebook
+8. cpu, gpu를 미리 333.py에서 설정해주기
+9. 터미널에서 python 333.py
+10. 짜잔
