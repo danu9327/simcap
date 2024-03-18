@@ -19,10 +19,10 @@ pt파일을 직접 만들었고 실시간 추적 코드를 짰습니다.
 1. 아나콘다 가상환경 생성(파이썬 버전 >=3.8) " conda create -n {가상환경이름} python=3.8 "
 2. 아나콘다 가상환경 실행 " conda activate {가상환경이름} "
 3. 주피터노트북 설치합시다 " pip install jupyter notebook "
-4. 레파지토리 다운 받을 경로로 가서 다운하" git clone repo "
-5. cd yolov9
-6. pip install -r requirements.txt
-7. jupyter notebook
+4. 레파지토리 다운 받을 경로로 가서 다운하" git clone https://github.com/redkye2/detection-and-tracking_real-time.git "
+5. 이름 쉽게 지을껄... 경로 이동 " cd detection-and-tracking_real-time "
+6. 라이브러리 깔기 " pip install -r requirements.txt "
+7. 주피터 노트북 실행 " jupyter notebook "
 8. cpu, gpu를 미리 333.py에서 설정해주기
-9. 터미널에서 python 333.py
+9. 터미널에서 " python 333.py "
 10. 짜잔
