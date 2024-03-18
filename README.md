@@ -13,8 +13,8 @@ pt파일을 직접 만들었고 실시간 추적 코드를 짰습니다.
 기존 블로그 예제 코드에서 document[0]으로 PDF파일의 1페이지만 불러오던 것을 
 수정해 전체 PDF파일을 불러오게 바꿨습니다.
 
-![ 실행영상 ](assets/2.gif)
-bert-base-multilingual-uncased모델을 HuggingFaceEmbeddings을 이용해 임베딩에 사용했다.
+![ 실행영상 ](assets/2.gif)///
+
 
 ## 실행 방법
 1. 아나콘다 가상환경 생성(파이썬 버전 >=3.8)
