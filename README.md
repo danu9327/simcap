@@ -24,5 +24,6 @@ pt파일을 직접 만들었고 실시간 추적 코드를 짰습니다.
 6. 라이브러리 깔기 " pip install -r requirements.txt "
 7. 주피터 노트북 실행 " jupyter notebook "
 8. cpu, gpu를 미리 333.py에서 설정해주기
-9. 터미널에서 " python 333.py "
-10. 짜잔
+9. 333.py랑 같은 위치에 자신들만의  pt 올리기
+10. 터미널에서 " python 333.py "
+11. 짜잔
