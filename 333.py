@@ -12,7 +12,7 @@ from models.common import DetectMultiBackend, AutoShape
 # 모델 및 비디오 정보 설정 함수가 정의되어 있다고 가정합니다.
 # setup_model_and_video_info, create_byte_tracker, setup_annotators, setup_counting_zone 등
 
-def process_webcam(model, config=dict(conf=0.1, iou=0.45, classes=None), counting_zone=None, show_labels=False):
+def process_webcam(model, config=dict(conf=0.1, iou=0.45, classes=None), counting_zone=None, show_labels=False): #'whole_frame', [[100, 50], [400, 50], [400, 250], [100, 250]] 이렇게 지정해서 counting zone을 설정도 가능해여!
     # 웹캠을 위한 준비. 여기서는 실제 video_info 대신 간단한 설정을 사용합니다.
     cap = cv2.VideoCapture(0)  # 웹캠 열기
     ret, frame = cap.read()
