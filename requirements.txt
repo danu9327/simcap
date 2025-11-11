@@ -6,7 +6,8 @@ gitpython
 ipython
 matplotlib>=3.2.2
 numpy>=1.18.5
-opencv-python==4.6.0.66
+opencv-python
+# opencv-python==4.6.0.66
 Pillow>=7.1.2
 psutil
 PyYAML>=5.3.1
@@ -47,3 +48,4 @@ seaborn>=0.11.0
 # mss
 albumentations>=1.0.3
 pycocotools>=2.0
+
